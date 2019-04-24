@@ -16,5 +16,19 @@
     <h5>This site is all about my cats<br>
     You will not only see great pictures of them<br>
     but I tell funny stories about their antics</h5>
+    <button>Close</button>
+    <script>
+    window.onload=stuff;
+    function stuff(){
+        
+        document.getElementsByTagName('button')[0].addEventListener('click',closeWin,false);
+        
+    }
+    function closeWin()
+    {
+        window.close();
+    }
+    
+    </script>
 </body>
 </html>
