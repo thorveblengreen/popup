@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    
+    </head>
+<body>
+
+<p>Click the button to open a new window called "MsgWindow" with some text.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var myWindow = window.open("", "MsgWindow", "width=200,height=100");
+  myWindow.document.write("<p>This is 'MsgWindow'. I am 200px wide and 100px tall!</p>");
+}
+</script>
+
+</body>
+</html>
